@@ -14,16 +14,16 @@ function Header() {
                         <div className="collapse navbar-collapse" id="navbarNav">
                             <ul className="navbar-nav">
                                 <li className="nav-item">
-                                    <Link to='Header' className="nav-link active" aria-current="page" >Home</Link>
+                                    <Link to='/header' className="nav-link active" aria-current="page" >Home</Link>
                                 </li>
                                 <li className="nav-item">
-                                    <Link to='Registration' className="nav-link" >Registration</Link>
+                                    <Link to='/registration' className="nav-link" >Registration</Link>
                                 </li>
                                 <li className="nav-item">
-                                    <Link to='Login' className="nav-link" href="/Login">Login</Link>
+                                    <Link to='/login' className="nav-link" href="/Login">Login</Link>
                                 </li>
                                 <li className="nav-item">
-                                    <Link to='Users' className="nav-link">Users</Link>
+                                    <Link to='/users' className="nav-link">Users</Link>
                                 </li>
                             </ul>
                         </div>
